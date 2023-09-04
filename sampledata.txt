@@ -1,0 +1,46 @@
+SAMPLE RESPONSE :
+===============
+http://localhost:7025/api/signup
+input :
+{
+    "name":"Sai",
+    "role":"admin",
+    "email":"Sai@gmail.com",
+    "password":"Sai@098"
+}
+
+======================================================================================
+
+http://localhost:7025/api/login
+
+input: {
+    "email":"Sai@gmail.com",
+    "password":"Sai@098"
+}
+
+output :
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjkzMzg0MzYwLCJleHAiOjE2OTMzODQ1NDB9.FPhYC43u-Php0y8GWnpR2OTx9srMhv3H-4N-EKHHZS0"
+}
+
+======================================================================================
+
+http://localhost:7025/api/users
+
+input:
+{
+    "name":"Praveen",
+    "role":"Admin",
+    "email":"praveen@gmail.com",
+    "password":"praveen@098",
+    "accessFlag":2
+}
+
+output:
+{
+    "message": "User created"
+}
+
+======================================================================================
+
