@@ -1,5 +1,6 @@
 Role Access Task - Express TypeScript MySQL
-==========================================
+=======
+
 This is a sample project that demonstrates role-based access control (RBAC) and user authentication using Express.js, TypeScript, and MySQL. It allows you to create, read, update, and delete users and feeds based on user roles and access flags.
 
 Features
@@ -38,7 +39,11 @@ Set your secret key for JWT token generation in the code.
 Usage
 
 Start the Express server:
+<<<<<<< HEAD
 npm start
+=======
+node app.js
+>>>>>>> 3781c1bcb53ed64f6ba01e7d2fbc6144201b35af
 
 Access the application at http://localhost:7000.
 
